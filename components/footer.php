@@ -33,12 +33,12 @@
             <div class="footersectionTitle">
                 <h5>USEFUL LINKS</h5>
             </div>
-            <ul>
-                <li class="navItem"><a href="home.php" class="navLink">Home</a></li>
-                <li class="navItem"><a href="orders.php" class="navLink">Orders</a></li>
-                <li class="navItem"><a href="shop.php" class="navLink">Shop</a></li>
-                <li class="navItem"><a href="wishlist.php" class="navLink">Wishlist</a></li>
-                <li class="navItem"><a href="contact.php" class="navLink">Contact</a></li>
+            <ul style="padding-left: 0rem;">
+                <li class="navItem"><a href="home.php" class="navLink" style="font-size: 18px;">Home</a></li>
+                <li class="navItem"><a href="orders.php" class="navLink" style="font-size: 18px;">Orders</a></li>
+                <li class="navItem"><a href="shop.php" class="navLink" style="font-size: 18px;">Shop</a></li>
+                <li class="navItem"><a href="wishlist.php" class="navLink" style="font-size: 18px;">Wishlist</a></li>
+                <li class="navItem"><a href="contact.php" class="navLink" style="font-size: 18px;">Contact</a></li>
             </ul>
         </div>
 
@@ -46,12 +46,12 @@
             <div class="footersectionTitle">
                 <h5>OUR SERVICES</h5>
             </div>
-            <ul>
-                <span class="footerP">Online shopping</span>
-                <span class="footerP">Free Home Delivery</span>
-                <span class="footerP">Return Money</span>
-                <span class="footerP">Delivery On Place</span>
-                <span class="footerP">Discount</span>
+            <ul style="padding-left: 0rem">
+                <span class="navItem">Online shopping</span>
+                <span class="navItem">Free Home Delivery</span>
+                <span class="navItem">Return Money</span>
+                <span class="navItem">Delivery On Place</span>
+                <span class="navItem">Discount</span>
             </ul>
         </div>
 

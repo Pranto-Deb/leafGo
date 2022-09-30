@@ -15,7 +15,7 @@
 
    <section class="flex">
 
-      <a href="../admin/dashboard.php" class="logo">Foodie.</a>
+      <a href="../admin/dashboard.php" class="logo" style="color: #00bc7e; font-weight: 700;">LeafGo</a>
 
       <nav class="navbar">
          <a href="../admin/dashboard.php">home</a>

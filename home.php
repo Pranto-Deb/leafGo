@@ -22,18 +22,12 @@ include 'components/wishlist_cart.php';
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>home</title>
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-
    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
-   
-   
    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
-   
    <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-
    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/solid.css">
-
    <!-- custom css file link  -->
    <link rel="stylesheet" href="./main.css">
    <link rel="stylesheet" href="css/style.css">
@@ -286,10 +280,13 @@ var swiper = new Swiper(".home-slider", {
         slidesPerView: 5,
       },
    },
+   autoplay: {
+      delay: 2000,
+   },
 });
 
 var swiper = new Swiper(".products-slider", {
-   // loop:true,
+   loop:true,
    spaceBetween: 20,
    pagination: {
       el: ".swiper-pagination",
@@ -305,6 +302,9 @@ var swiper = new Swiper(".products-slider", {
       1024: {
         slidesPerView: 3,
       },
+   },
+   autoplay: {
+      delay: 2000,
    },
 });
 
